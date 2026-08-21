@@ -187,7 +187,7 @@ pipeline step worth isolating in its own module.
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/CindheSai/Student-performance-AI.git
 cd student-performance-ai
 ```
 
