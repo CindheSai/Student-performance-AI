@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large / generated artifacts (regenerate via scripts, do not commit)
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+outputs/figures/*.png
+outputs/metrics/*.json
+outputs/predictions/*.json
+
+# Keep folder structure in git despite the ignores above
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/predictions/.gitkeep
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
